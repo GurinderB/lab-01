@@ -1,0 +1,39 @@
+section {
+  width: 100%;
+}
+
+div {
+  display: block;
+  height: 300px;
+  border: 1px dotted #000;
+  background: #888;
+  box-sizing: border-box;
+  width: 480px
+}
+#a {
+    height: 75px ;
+   }
+#b {
+    height: 150px;
+   }
+#c {
+    height: 150px;
+   }
+#d {
+    height: 150px;
+   }   
+#efgh {
+       width: 240px;
+       height: 250px;
+       float: left; 
+      }
+@media (min-width: 768px) {
+  section {
+    width: 1500px;
+  }
+
+  div {
+    width: 300px;
+    float: left;
+  }
+}
