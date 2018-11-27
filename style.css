@@ -27,6 +27,12 @@ div {
        height: 250px;
        float: left; 
       }
+#i {
+    height: 80px;
+    float: clear;
+    float: left;
+       }   
+
 @media (min-width: 768px) {
   section {
     width: 1500px;
